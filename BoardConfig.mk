@@ -32,6 +32,7 @@ SOONG_CONFIG_ONEPLUS_LAHAINA_FOD_SIZE = 174
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
 -include vendor/oneplus/lemonade/BoardConfigVendor.mk
